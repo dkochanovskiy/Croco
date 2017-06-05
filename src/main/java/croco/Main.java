@@ -18,21 +18,19 @@ public class Main {
         String FILE_NAME = "./src/main/resources/input.json";
         String[] finalArray;
         String employeeId;
+        int count;
 
         Parser parser = new Parser();
         Sender sender = new Sender();
 
         finalArray = parser.getArray(FILE_NAME);
+        count = parser.countTrackForAdd(FILE_NAME);
         ArrayList<String> finalArrayList = new ArrayList<>(finalArray.length);
         finalArrayList.addAll(Arrays.asList(finalArray));
 
         while(finalArrayList != null){
 //            sender.sender(finalArrayList.get(0), finalArrayList.get(1), finalArrayList.get(2), finalArrayList.get(3),
 //                    finalArrayList.get(4));
-            for(String e : finalArrayList){
-                System.out.println(e);
-            }
-            System.out.println("-------------------------------");
             for(int i = 0; i < 5; i++){
                 finalArrayList.remove(0);
             }
