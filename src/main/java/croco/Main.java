@@ -3,6 +3,8 @@ package croco;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
@@ -15,17 +17,25 @@ public class Main {
 
         String FILE_NAME = "./src/main/resources/input.json";
         String[] finalArray;
+        String employeeId;
+
         Parser parser = new Parser();
-        finalArray= parser.getArray(FILE_NAME);
-        if(finalArray != null){
-            for(String e : finalArray){
+        Sender sender = new Sender();
+
+        finalArray = parser.getArray(FILE_NAME);
+        ArrayList<String> finalArrayList = new ArrayList<>(finalArray.length);
+        finalArrayList.addAll(Arrays.asList(finalArray));
+
+        while(finalArrayList != null){
+//            sender.sender(finalArrayList.get(0), finalArrayList.get(1), finalArrayList.get(2), finalArrayList.get(3),
+//                    finalArrayList.get(4));
+            for(String e : finalArrayList){
                 System.out.println(e);
             }
+            System.out.println("-------------------------------");
+            for(int i = 0; i < 5; i++){
+                finalArrayList.remove(0);
+            }
         }
-//        Sender sender = new Sender();
-//        for(int i = 1; i <= parser.countTrackForAdd(FILE_NAME); i++){
-//            finalArray= parser.getArray(FILE_NAME);
-//            sender.sender(finalArray[0], finalArray[1], finalArray[2], finalArray[3], finalArray[4]);
-//        }
     }
 }

@@ -18,7 +18,7 @@ class Sender {
      */
     private static final Logger logger = Logger.getLogger(Sender.class);
 
-    void sender(String employeeId, String taskId, String start, String end,  String comment){
+    void sender(String employeeId, String taskId, String comment, String start, String end){
 
         try(
                 CloseableHttpClient httpClient = HttpClients.createDefault()

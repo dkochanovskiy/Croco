@@ -10,7 +10,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-class Parser {
+class Parser extends ArrayList {
 
     /**
      * Number of milliseconds in second
