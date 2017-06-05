@@ -1,0 +1,23 @@
+{
+  "host": "https://saas.crocotime.net/70ac75b74e0d4805888824636ac4575e/",
+  "server_token": "63714f7317810d0cd3d34021760e5982530c3e0b22228ffa8b926adf50db7d36",
+  "tracks": [
+    {
+      "employee.id": 1,
+      "task.id ": 17,
+      "comment": "Test track 1",
+      "period": {
+        "start": "24.10.2016 09:00",
+        "end": "24.10.2016 09:30"
+      }
+    },{
+      "employee.id": 1,
+      "task.id ": 18,
+      "comment": "Test track 2",
+      "period": {
+        "start": "24.10.2016 11:00",
+        "end": "24.10.2016 11:30"
+      }
+    }
+  ]
+}

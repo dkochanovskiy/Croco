@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Croco.iml" filepath="$PROJECT_DIR$/.idea/modules/Croco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Croco_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Croco_main.iml" group="Croco" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Croco_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Croco_test.iml" group="Croco" />
+    </modules>
+  </component>
+</project>
