@@ -14,9 +14,9 @@ public class Main {
     public static void main(String[] args) {
 
         String FILE_NAME = "./src/main/resources/input.json";
-        ArrayList<String> finalArray;
+        String[] finalArray;
         Parser parser = new Parser();
-        finalArray= parser.getArray(FILE_NAME);
+        finalArray= parser.getTimeString("24.10.2016.09.00");
         if(finalArray != null){
             for(String e : finalArray){
                 System.out.println(e);
