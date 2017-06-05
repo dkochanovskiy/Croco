@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ed8a42-1314-4f1a-b35b-84988a1824e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/croco/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/croco/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/croco/Main.java" afterPath="$PROJECT_DIR$/src/main/java/croco/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/croco/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="261">
+              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -434,6 +432,31 @@
     <option name="y" value="3" />
     <option name="width" value="1581" />
     <option name="height" value="1003" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>InfiniteLoopStatement</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -974,12 +997,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496665018181</updated>
-      <workItem from="1496665023039" duration="19836000" />
+      <workItem from="1496665023039" duration="20370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19836000" />
+    <option name="totallyTimeSpent" value="20370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="3" width="1581" height="1003" extended-state="0" />
@@ -994,7 +1017,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1076,8 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/croco/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="261">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
