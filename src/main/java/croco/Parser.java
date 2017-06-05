@@ -92,16 +92,16 @@ class Parser {
                 }
             }
             if(finalArray != null){
-//                finalArray[0] = stringArray[0];
-//                finalArray[1] = stringArray[1];
-//                finalArray[2] = stringArray[2];
-//                finalArray[3] = getTimeString(stringArray[3]);
-//                finalArray[4] = getTimeString(stringArray[4]);
-//                finalArray[5] = stringArray[5];
-//                finalArray[6] = stringArray[6];
-//                finalArray[7] = stringArray[7];
-//                finalArray[8] = getTimeString(stringArray[8]);
-//                finalArray[9] = getTimeString(stringArray[9]);
+                finalArray[0] = stringArray[0];
+                finalArray[1] = stringArray[1];
+                finalArray[2] = stringArray[2];
+                finalArray[3] = getTimeString(stringArray[3]);
+                finalArray[4] = getTimeString(stringArray[4]);
+                finalArray[5] = stringArray[5];
+                finalArray[6] = stringArray[6];
+                finalArray[7] = stringArray[7];
+                finalArray[8] = getTimeString(stringArray[8]);
+                finalArray[9] = getTimeString(stringArray[9]);
             }
         } catch(IOException ex){
             logger.trace("IOException! " + ex);
@@ -126,21 +126,21 @@ class Parser {
     /**
      * Parsing strings with time
      */
-    String[] getTimeString(String string){
+    String getTimeString(String string){
 
         String changedString = null;
         string = string.replaceAll(" ", ".");
         string = string.replaceAll(":", ".");
-        String[] oktet = string.split(".");
-//        String[] changedOktet = new String[oktet.length];
-//        changedOktet[0] = oktet[2];
-//        changedOktet[1] = oktet[1];
-//        changedOktet[2] = oktet[0];
-//        changedOktet[3] = oktet[3];
-//        changedOktet[4] = oktet[4];
-//
-//        changedString = changedOktet[0] + changedOktet[1] + changedOktet[2] + changedOktet[3] +changedOktet[4];
+        String[] oktet = string.split("\\.");
+        String[] changedOktet = new String[oktet.length];
+        changedOktet[0] = oktet[2];
+        changedOktet[1] = oktet[1];
+        changedOktet[2] = oktet[0];
+        changedOktet[3] = oktet[3];
+        changedOktet[4] = oktet[4];
 
-        return oktet;
+        changedString = changedOktet[0] + changedOktet[1] + changedOktet[2] + changedOktet[3] +changedOktet[4];
+
+        return changedString;
     }
 }

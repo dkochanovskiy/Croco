@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ed8a42-1314-4f1a-b35b-84988a1824e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/croco/Parser.class" afterPath="$PROJECT_DIR$/build/classes/main/croco/Parser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/croco/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/croco/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/croco/Main.java" afterPath="$PROJECT_DIR$/src/main/java/croco/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/croco/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/croco/Parser.java" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/croco/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="193">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +40,8 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/croco/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+            <state relative-caret-position="74">
+              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -407,8 +406,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/croco/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/croco/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/croco/Main.java" />
       </list>
     </option>
   </component>
@@ -963,12 +962,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496665018181</updated>
-      <workItem from="1496665023039" duration="6869000" />
+      <workItem from="1496665023039" duration="9044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6869000" />
+    <option name="totallyTimeSpent" value="9044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="3" width="1581" height="1003" extended-state="0" />
@@ -1057,8 +1056,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/croco/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="193">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1067,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/croco/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+        <state relative-caret-position="74">
+          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
           <folding />
         </state>
       </provider>
