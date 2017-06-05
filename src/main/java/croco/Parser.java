@@ -30,9 +30,7 @@ class Parser {
     /**
      * Converting time to UNIX-format
      */
-    long convertTime(String day, String month, String year, String hour, String minute){
-
-        String thisTime = year + month + day + hour + minute;
+    long convertTime(String thisTime){
         DateFormat dfm = new SimpleDateFormat("yyyyMMddHHmm");
         long finalTime = 0;
         try {
@@ -92,16 +90,16 @@ class Parser {
                 }
             }
             if(finalArray != null){
-                finalArray[0] = stringArray[0];
-                finalArray[1] = stringArray[1];
-                finalArray[2] = stringArray[2];
-                finalArray[3] = getTimeString(stringArray[3]);
-                finalArray[4] = getTimeString(stringArray[4]);
-                finalArray[5] = stringArray[5];
-                finalArray[6] = stringArray[6];
-                finalArray[7] = stringArray[7];
-                finalArray[8] = getTimeString(stringArray[8]);
-                finalArray[9] = getTimeString(stringArray[9]);
+                finalArray[0] = String.valueOf(stringArray[0]);
+                finalArray[1] = String.valueOf(stringArray[1]);
+                finalArray[2] = String.valueOf(stringArray[2]);
+                finalArray[3] = String.valueOf(convertTime(getTimeString(stringArray[3])));
+                finalArray[4] = String.valueOf(convertTime(getTimeString(stringArray[4])));
+                finalArray[5] = String.valueOf(stringArray[5]);
+                finalArray[6] = String.valueOf(stringArray[6]);
+                finalArray[7] = String.valueOf(stringArray[7]);
+                finalArray[8] = String.valueOf(convertTime(getTimeString(stringArray[8])));
+                finalArray[9] = String.valueOf(convertTime(getTimeString(stringArray[9])));
             }
         } catch(IOException ex){
             logger.trace("IOException! " + ex);

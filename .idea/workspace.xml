@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ed8a42-1314-4f1a-b35b-84988a1824e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/croco/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/croco/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/croco/Main.java" afterPath="$PROJECT_DIR$/src/main/java/croco/Main.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/croco/Parser.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/croco/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/croco/Parser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,8 +38,8 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/croco/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+            <state relative-caret-position="-317">
+              <caret line="100" column="86" lean-forward="false" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -406,8 +404,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/croco/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/croco/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/croco/Parser.java" />
       </list>
     </option>
   </component>
@@ -962,12 +960,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496665018181</updated>
-      <workItem from="1496665023039" duration="9044000" />
+      <workItem from="1496665023039" duration="10064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9044000" />
+    <option name="totallyTimeSpent" value="10064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="3" width="1581" height="1003" extended-state="0" />
@@ -1066,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/croco/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        <state relative-caret-position="-317">
+          <caret line="100" column="86" lean-forward="false" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
           <folding />
         </state>
       </provider>
