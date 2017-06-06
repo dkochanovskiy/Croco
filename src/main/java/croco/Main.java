@@ -1,10 +1,8 @@
 package croco;
 
 import org.apache.log4j.Logger;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
 
@@ -15,9 +13,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        /**
+         * Number of fields required to add a track
+         */
+        int NUMBER_NEED_FIELDS = 5;
+
         String FILE_NAME = "./src/main/resources/input.json";
         String[] finalArray;
-        String employeeId;
         int count;
 
         Parser parser = new Parser();
@@ -26,14 +28,20 @@ public class Main {
         finalArray = parser.getArray(FILE_NAME);
         count = parser.countTrackForAdd(FILE_NAME);
         ArrayList<String> finalArrayList = new ArrayList<>(finalArray.length);
-        finalArrayList.addAll(Arrays.asList(finalArray));
+        try{
+            finalArrayList.addAll(Arrays.asList(finalArray));
 
-        while(finalArrayList != null){
-//            sender.sender(finalArrayList.get(0), finalArrayList.get(1), finalArrayList.get(2), finalArrayList.get(3),
-//                    finalArrayList.get(4));
-            for(int i = 0; i < 5; i++){
-                finalArrayList.remove(0);
+            for (int i = 0; i < count; i++){
+                sender.sender(finalArrayList.get(0), finalArrayList.get(1), finalArrayList.get(2), finalArrayList.get(3),
+                        finalArrayList.get(4));
+                for (int j = 0; j < NUMBER_NEED_FIELDS; j++){
+                    finalArrayList.remove(0);
+                }
             }
+        } catch(NullPointerException ex) {
+            logger.trace("NullPointerException! " + ex);
+        } catch(ArrayIndexOutOfBoundsException ex) {
+            logger.trace("ArrayIndexOutOfBoundsException! " + ex);
         }
     }
 }

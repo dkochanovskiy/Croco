@@ -1,7 +1,6 @@
 package croco;
 
 import org.apache.log4j.Logger;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,12 +14,7 @@ class Parser extends ArrayList {
     /**
      * Number of milliseconds in second
      */
-    int NUMBER_MILLISECONDS_IN_SECOND = 1000;
-
-    /**
-     * Number of fields required to add a track
-     */
-    int NUMBER_NEED_FIELDS = 5;
+    private int NUMBER_MILLISECONDS_IN_SECOND = 1000;
 
     /**
     *   Logger init
@@ -30,7 +24,7 @@ class Parser extends ArrayList {
     /**
      * Converting time to UNIX-format
      */
-    long convertTime(String thisTime){
+    private long convertTime(String thisTime){
         DateFormat dfm = new SimpleDateFormat("yyyyMMddHHmm");
         long finalTime = 0;
         try {
@@ -114,7 +108,7 @@ class Parser extends ArrayList {
     /**
      * Extraction of value
      */
-    String extValue(String string){
+    private String extValue(String string){
         String value;
         String[] stringArray = string.split(": ");
         value = stringArray[1];
@@ -124,7 +118,7 @@ class Parser extends ArrayList {
     /**
      * Parsing strings with time
      */
-    String getTimeString(String string){
+    private String getTimeString(String string){
 
         String changedString = null;
         string = string.replaceAll(" ", ".");
